@@ -8,7 +8,7 @@ object mySQLConnector extends Iconnector {
     val url = "jdbc:mysql://localhost:3306/tweetDashboard"
     val driver = "com.mysql.jdbc.Driver"
     val username = "root"
-    val password = "her0zer0"
+    val password = "*****"
     var conn: Connection = null
 
     try {
