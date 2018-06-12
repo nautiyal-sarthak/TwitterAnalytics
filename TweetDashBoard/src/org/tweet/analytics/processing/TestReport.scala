@@ -45,7 +45,7 @@ class TestReport(conObj: SparkSession) extends Iprocessor {
     val url = "jdbc:mysql://localhost:3306/tweetDashboard"
     val driver = "com.mysql.jdbc.Driver"
     val username = "root"
-    val password = "her0zer0"
+    val password = "*****"
 
     val options = Map(
       "url" -> "jdbc:mysql://localhost:3306/tweetDashboard",
